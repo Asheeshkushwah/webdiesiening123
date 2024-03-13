@@ -1,0 +1,23 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+nav{
+background: #ffffff;
+width: 100%;
+height:70px;
+ display: flex;
+justify-content:space-between ;
+align-items: center;
+padding: 0 40px;
+}
+.menu a{
+text-decoration: none;
+font-size: 26px;
+font-family: cursive;
+padding: 0 10px;
+font-weight: bold;
+color: #ff2b85;
+}
+

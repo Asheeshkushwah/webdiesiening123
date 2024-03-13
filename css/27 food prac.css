@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: #5c5ca4;
+    font-family: cursive;
+    font-size: 22px;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #fc2b86;
+    ;
+    padding: 0 6px;
+}
+
+.banner {
+    background-image: url(../image/about-foodpanda.jpeg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+    background: red;
+    width: 50%;
+    position: relative;
+    top: 50%;
+    box-shadow: 3px 3px 3px orange;
+}
+
+.about {
+    padding: 100px 2px;
+    text-align: center;
+}
+
+.about h3 {
+    word-spacing: 8px;
+    font-family: ui-serif;
+    font-size: 55px;
+    letter-spacing: 2px;
+
+}
+
+.about p {
+    word-spacing: 2px;
+    font-size: 28px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    margin-bottom: 18px;
+
+}
+
+.about button {
+    font-size: 30px;
+    font-family: serif;
+    text-align: center;
+    width: 170px;
+    height: 45px;
+    color: #5c5ca4;
+    border-radius: 10px;
+    background: red;
+
+}
+
+.team {
+    background: url(../image/Sun.png);
+    padding: 100px 2px;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    font-size: 33px;
+}
+
+.team p {
+    word-spacing: 6px;
+    letter-spacing: 2px;
+    line-height: 42px;
+}
+
+
+.team h3 {
+
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.team button {
+    width: 224px;
+    height: 51px;
+    background: #cb70da;
+    font-size: 40px;
+    border-radius: 9px;
+    border: none;
+}
+
+
+.press {
+    background: url(../image/fp-about-2.jpg);
+    padding: 100px 2px;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    font-size: 33px;
+}
+
+.press p {
+    word-spacing: 6px;
+    letter-spacing: 2px;
+    line-height: 42px;
+}
+
+
+.press h3 {
+
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.press button {
+    width: 224px;
+    height: 51px;
+    background: #cb70da;
+    font-size: 40px;
+    border-radius: 9px;
+    border: none;
+}
+
+
+.contact {
+    background: #fc2b86;
+    ;
+    padding: 100px 2px;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    font-size: 33px;
+    color: white;
+}
+
+.contact p {
+    word-spacing: 6px;
+    letter-spacing: 2px;
+    line-height: 42px;
+    color: white;
+}
+
+
+.contact h3 {
+
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.contact button {
+    width: 224px;
+    height: 52px;
+    background: #7074dab0;
+    font-size: 30px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+}
+
+
+.footer {
+    background: #5c5ca4;
+    width: 100%;
+    height: 300px;
+}
+
+.footer-content h4 {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.footer-content li {
+    margin-bottom: 16px;
+}
+
+.footer-content li a {
+    display: block;
+    color: #d6d6d6;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+
+.footer-content li a:hover {
+    transform: translateY(-3px)translateX(-5px);
+    color: #fff;
+}
+
+.footer-content p {
+    color: #d6d6d6;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}

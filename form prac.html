@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .name {
+            height: 845px;
+            color: red;  
+            width: 1260px;
+            margin: 50px;
+            padding: 19px;
+            border: 2px solid;
+            background: url(image/aaaaaaaaaa.jpg);
+        }
+        
+        ::placeholder {
+            text-align: center;
+            color: blue;
+
+        }
+
+
+        form button {
+            width: 70px;
+            background: #ff00c0;
+            border: none;
+            border-radius: 15px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="name">
+        <form>
+            <input type="text" value="u.p. police" readonly>
+            <br><br>
+            NAME:   
+            <input type="text" name="n" placeholder="enter Name" required>
+            <br><br>
+            middle name:
+            <input type="text" name="m" placeholder="middle Name" required>
+            <br><br>
+            last name:
+            <input type="text" name="last" placeholder="last name" required>
+            <br><br>
+            father name:
+            <input type="text" name="f " placeholder="father name" required>
+            <br><br>
+            mother name:
+            <input type="text" name="m " placeholder="mother name" required>
+            <br><br>
+            email:
+            <input type="text" name="E" placeholder="email">
+            <br><br>
+            password:
+            <input type="text" name="p " placeholder="password">
+            <br><br>
+            phone:
+            <input type="number" name="p" placeholder="phone" required>
+            <br><br>
+            D.O.B:
+            <input type="date" name="dob">
+
+            <br><br>
+            gender:
+            <input type="radio" name="gender " value="male">male
+            <input type="radio" name="gender " value="female">female
+            <br><br>
+            category:
+            <select>
+                <option> select option</option>
+                <option value="sc/st"> sc/st</option>
+                <option value="obc">obc</option>
+                <option value="gen">general</option>
+
+            </select>
+            <br><br>
+            village /city:
+            <input type="text" name="v/c" placeholder="village/city">
+            <br><br>
+            district:
+            <input type="text" name="d " placeholder="district" required>
+            <br><br>
+            state: 
+            <select>
+                <option>select state</option>
+                <option value="mp"> m.p</option>
+                <br><br>
+
+            </select>
+            <br><br>
+
+            post office:
+            <input type="text" name="p " placeholder="post office " required>
+            <br><br>
+            pincode:
+            <input type="text" name="pin " placeholder="pincode" required>
+            <br><br>
+            college:
+            <select>
+                <option> select college</option>
+                <option value="gajraraja medical college">gajraraja medical college</option>
+                <option value="itm">itm univercity </option>
+                <option value=" jain college">jain college</option>
+                <option value="amity"> amity univercity</option>
+                <option value="mpct">mpct college</option>
+            </select>
+            <br><br>
+            address:
+            <textarea name=""></textarea>
+            <br><br>
+            education:
+            <input type="checkbox" name="" value="10th">10th
+            <input type="checkbox" name="" value="12th">12th
+            <input type="checkbox" name="" value="bsc">bsc
+            <input type="checkbox" name="" value="iti">iti
+            <input type="checkbox" name="" value="b.a">b.a
+            <input type="checkbox" name="" value="mca">mca
+            <input type="checkbox" name="" value="msc">msc
+            <br><br>
+            image upload:
+            <input type="file" name="" id="">
+            <br><br>
+            <button type="submit">submit</button>
+
+
+        </form>
+    </div>
+</body>
+
+</html>

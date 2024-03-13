@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: wheat;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0 10px;
+    color: aqua;
+}
+.banner{
+background: url(../image/German-Shepherd-dog-Alsatian.webp);
+width: 100%;
+height: 500px;
+}
